@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 import java.util.Iterator;
 import java.util.Map;
 
-public class ClassToMap {
+public class ClassUtils {
     public static <T> Map<String,Object> toMap(T aClass)
     {
         Field[] fields = aClass.getClass().getDeclaredFields();
